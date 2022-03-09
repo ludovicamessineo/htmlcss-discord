@@ -1,0 +1,51 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Whitney", sans serif;
+}
+
+img {
+    width: 100%;
+}
+
+/* HEADER */
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+/* test */
+    border: 1px solid pink;
+}
+
+header {
+    background-color: #3161e0;
+    height: 60px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    height: 60px;
+
+    /* test */
+    border: 1px solid gold;
+}
+
+.col-logo, .col-btn {
+    width: 15%;
+}
+
+.col-list {
+    width: 70%;
+}
