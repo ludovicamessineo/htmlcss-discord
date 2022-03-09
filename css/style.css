@@ -40,7 +40,6 @@ nav {
 /* Colonne */
 .col {
     float: left;
-    height: 60px;
 }
 
 .col-logo img {
@@ -105,17 +104,17 @@ a {
 }
 
 .text-cont h1 {
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 .text-cont p {
-    font-size: 1.3em;
+    font-size: 1.4em;
     line-height: 1.6em;
     margin-top: 3em;
 }
 
 .buttons {
-    margin-top: 1em;
+    margin-top: 2.5em;
 }
 .white-btn {
     font-size: 1.3em;
@@ -124,3 +123,36 @@ a {
     background-color: white;
     border-radius: 50px;
 }
+
+.dark-btn {
+    font-size: 1.3em;
+    padding: 1em 2em;
+    color: white;
+    background-color: #23272a;
+    border-radius: 50px;
+    margin-left: 1.5em;
+}
+
+/* SECTION */
+.img-left {
+    margin: 9em 7em;
+}
+.col-img {
+    width: 65%;
+}
+
+.col-text {
+    width: calc(35% - 25px);
+    margin-left: 25px;
+}
+
+.col-text h2 {
+    font-size: 3.5em;
+}
+
+.col-text p {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    margin-top: 2em;
+}
+
