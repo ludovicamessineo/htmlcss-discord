@@ -134,17 +134,19 @@ a {
     margin-left: 1.5em;
 }
 
-/* SECTION 1 */
+/* SECTION 1 E 3 */
 .margin-cont {
-    margin: 9em 7em;
+    margin: 9em 9em;
 }
 .col-img {
     width: 65%;
+    padding: 4em;
 }
 
 .col-text {
     width: calc(35% - 25px);
     margin-left: 25px;
+    padding: 3em;
 }
 
 .col-text h2 {
@@ -155,7 +157,6 @@ a {
     font-size: 1.4em;
     line-height: 1.6em;
     margin-top: 2em;
-    text-align: middle;
 }
 
 /* SECTION 2 */
