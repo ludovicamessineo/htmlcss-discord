@@ -160,8 +160,8 @@ a {
 }
 
 /* SECTION 2 */
-.right {
-    background-color: lightgrey;
+.bg-grey {
+    background-color:#f6f6f6;
 }
 
 .col-text .b {
@@ -171,4 +171,41 @@ a {
 
 .padding-cont {
     padding: 9em 0;
+}
+
+/* SEZIONE 4 */
+.center-cont {
+    text-align: center;
+}
+
+.text-banner h2 {
+    font-size: 3.5em;
+}
+
+.text-banner p {
+    font-size: 1.5em;
+    line-height: 1.6em;
+    margin-top: 2em;
+}
+
+.bg-text {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 2em;
+}
+
+/* QUARTA SEZIONE  */
+.bg-text h3 {
+    font-size: 2em;
+    margin-bottom: 2.5em;
+}
+
+.big-btn {
+    font-size: 1.3em;
+    padding: 1em 2em;
+    color: white;
+    background-color: #8ea1e1;
+    border-radius: 50px;
 }
