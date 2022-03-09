@@ -116,6 +116,7 @@ a {
 .buttons {
     margin-top: 2.5em;
 }
+
 .white-btn {
     font-size: 1.3em;
     padding: 1em 2em;
@@ -133,8 +134,8 @@ a {
     margin-left: 1.5em;
 }
 
-/* SECTION */
-.img-left {
+/* SECTION 1 */
+.margin-cont {
     margin: 9em 7em;
 }
 .col-img {
@@ -154,5 +155,19 @@ a {
     font-size: 1.4em;
     line-height: 1.6em;
     margin-top: 2em;
+    text-align: middle;
 }
 
+/* SECTION 2 */
+.right {
+    background-color: lightgrey;
+}
+
+.col-text .b {
+    width: calc(35% - 25px);
+    margin-right: 25px;
+}
+
+.padding-cont {
+    padding: 9em 0;
+}
